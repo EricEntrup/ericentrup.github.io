@@ -1,0 +1,13 @@
+/* Hover effect for project cards */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#hero {
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: 50% 60%;
+    color: #fff; /* Set text color to white for better readability */
+    background-color: rgba(0, 0, 0, 0.5);
+}

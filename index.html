@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Entrup - AI Research Scientist</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include custom CSS for your styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Eric Entrup</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="jumbotron text-center">
+    <div class="container">
+        <div class="hero-text-box">
+            <h1 class="display-4">AI Research Scientist</h1>
+            <p class="lead">Transforming Ideas into Intelligent Solutions</p>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center">About Me</h2>
+        <p>
+            I am a passionate AI enthusiast with a strong background in machine learning, deep learning, and natural language processing. My journey in the world of AI has led me to explore innovative solutions and drive progress in various domains.
+        </p>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Experience</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Machine Learning Engineer</h3>
+                <p>Worked on cutting-edge machine learning projects at XYZ Company, where I developed models for image recognition and predictive analytics.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>NLP Researcher</h3>
+                <p>Contributed to the field of natural language processing by conducting research at ABC Institute. Published papers on sentiment analysis and chatbot development.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Object Detection in Remote Sensing</h5>
+                        <p class="card-text">Built an image recognition app using convolutional neural networks, achieving 95% accuracy in object detection.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">LLMs for Resouce Management</h5>
+                        <p class="card-text">Developed a chatbot for seamless customer support, reducing response times and improving user satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="project3.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Super Resolution for Electro Optical Imagery</h5>
+                        <p class="card-text">Created a personalized recommendation system that increased user engagement and sales by 20%.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Contact</h2>
+        <p>
+            Feel free to reach out to me using the contact form below for collaborations and inquiries. Let's innovate together!
+        </p>
+        <form action="process_contact.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Include Bootstrap and jQuery JavaScript libraries -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
