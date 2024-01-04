@@ -5,7 +5,7 @@
 }
 
 #hero {
-    background-image: url('background.png');
+    background-image: url('https://ericentrup.github.io/background.png');
     background-size: cover;
     background-position: 50% 60%;
     color: #fff; /* Set text color to white for better readability */
